@@ -23,7 +23,7 @@ export const portfolioData = [
     id: 2,
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
-    imgSrc: `${config.basePath}/assets/img/work/PennyPig.jpg`,
+    imgSrc: `${config.basePath}/assets/img/work/pennyPig.jpg`,
     subtitle: "Expense tracking web application",
     title: "PennyPig",
     target: "#portfolio-1",

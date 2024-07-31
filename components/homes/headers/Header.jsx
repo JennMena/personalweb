@@ -4,16 +4,17 @@ import Menu from "../menus/Menu";
 import { menuItems } from "@/data/menu";
 import Image from "next/image";
 import Link from "next/link";
+const config = require('../../../next.config')
 
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
   const addDarkbg = () => {
     if (
       document.body.style.backgroundImage !=
-      "url(/assets/img/bg/page-bg-dark-1.jpg"
+      `url(${config.basePath}/assets/img/bg/page-bg-dark-1.jpg)`
     ) {
       document.body.style.backgroundImage =
-        "url(/assets/img/bg/page-bg-dark-1.jpg";
+        `url(${config.basePath}/assets/img/bg/page-bg-dark-1.jpg)`;
 
       setDarkMode(true);
     }
@@ -21,9 +22,9 @@ export default function Header() {
 
   const addlightBg = () => {
     if (
-      document.body.style.backgroundImage != "url(/assets/img/bg/page-bg-1.jpg)"
+      document.body.style.backgroundImage != `url(${config.basePath}/assets/img/bg/page-bg-1.jpg)`
     ) {
-      document.body.style.backgroundImage = "url(/assets/img/bg/page-bg-1.jpg)";
+      document.body.style.backgroundImage = `url(${config.basePath}/assets/img/bg/page-bg-1.jpg)`;
 
       setDarkMode(false);
     }
@@ -68,8 +69,8 @@ export default function Header() {
                     height={100}
                     src={
                       darkMode
-                        ? "/assets/img/logo/JM-w.png" // For dark background
-                        : "/assets/img/logo/JM.png" // For light background
+                        ? `${config.basePath}/assets/img/logo/JM-w.png` // For dark background
+                        : `${config.basePath}/assets/img/logo/JM.png` // For light background
                     }
                     alt="logo"
                   />
