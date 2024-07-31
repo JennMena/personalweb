@@ -13,7 +13,7 @@ export default function PersonalInfo() {
             <Image
               width={240}
               height={240}
-              src={profileInfo.imageSrcOne}
+              src={`${basePath}${profileInfo.imageSrcOne}`}
               alt="avatar"
             />
           </div>
