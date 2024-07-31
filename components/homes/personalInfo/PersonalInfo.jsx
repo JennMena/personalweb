@@ -4,6 +4,8 @@ import { socialMediaData } from "@/data/socials";
 import Image from "next/image";
 import React from "react";
 
+const config = require('../../../next.config')
+
 export default function PersonalInfo() {
   return (
     <div className="col-xxl-3 col-xl-3">
@@ -13,7 +15,7 @@ export default function PersonalInfo() {
             <Image
               width={240}
               height={240}
-              src={`${basePath}${profileInfo.imageSrcOne}`}
+              src={`${config.basePath}${profileInfo.imageSrcOne}`}
               alt="avatar"
             />
           </div>
