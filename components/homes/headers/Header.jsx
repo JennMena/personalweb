@@ -4,8 +4,10 @@ import Menu from "../menus/Menu";
 import { menuItems } from "@/data/menu";
 import Image from "next/image";
 import Link from "next/link";
-const config = require('../../../next.config')
-
+//const config = require('../../../next.config')
+const config = {
+  basePath: "/personalweb",
+};
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
   const addDarkbg = () => {
