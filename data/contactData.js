@@ -15,8 +15,8 @@ export const contactData = [
     fontSize: "22px",
     iconClass: "fa-regular fa-envelope-open-text",
     text: {
-      label: "Email",
-      value: "mena.mallerly@gmail.com",
+      label: "Gmail",
+      value: "mena.mallerly",
     },
   },
   {
