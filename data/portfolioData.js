@@ -1,11 +1,9 @@
-const config = require('../next.config')
-
 export const portfolioData = [
   {
     id: 1,
     class: "isotop-item logo",
     bgClass: "bg-prink",
-    imgSrc: `${config.basePath}/assets/img/work/hack1HothXI.jpg`,
+    imgSrc: `/assets/img/work/hack1HothXI.jpg`,
     subtitle: "HOTH XI Hackathon by ACM at UCLA",
     title: "BruinBites & Books",
     target: "#portfolio-1",
@@ -23,7 +21,7 @@ export const portfolioData = [
     id: 2,
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
-    imgSrc: `${config.basePath}/assets/img/work/pennyPig.jpg`,
+    imgSrc: `/assets/img/work/pennyPig.jpg`,
     subtitle: "Expense tracking web application",
     title: "PennyPig",
     target: "#portfolio-1",
@@ -41,7 +39,7 @@ export const portfolioData = [
     id: 3,
     class: "isotop-item logo mockup",
     bgClass: "bg-catkrill",
-    imgSrc: `${config.basePath}/assets/img/work/StemquaWomen.jpg`,
+    imgSrc: `/assets/img/work/StemquaWomen.jpg`,
     subtitle: "Kode With Klossy Coding Bootcamp",
     title: "STEMqua Women",
     target: "#portfolio-1",
