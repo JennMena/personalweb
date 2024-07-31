@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { notion } from "@/data/notion";
 import Image from "next/image";
+const config = require('../../../next.config')
 
 export default function AboutOne() {
   const [showSlider, setShowSlider] = useState(false);
@@ -30,7 +31,7 @@ export default function AboutOne() {
                     <Image
                       height={120}
                       width={120}
-                      src={"/assets/img/apps-notion.svg"}
+                      src={`${config.basePath}/assets/img/apps-notion.svg`}
                       alt="Notion"
                       style={{marginLeft: "20px"}}
                     />
