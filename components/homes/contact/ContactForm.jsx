@@ -24,26 +24,26 @@ export default function ContactForm() {
 
     // Send email to me
     emailjs.send(
-      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_OWNER,
+      "service_obnhw2p",
+      "template_mk5n4gh",
       {
         reply_to: form.current.email?.value,
         user_name: capitalizedName,
         user_message: form.current.message?.value,
       },
-      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      "1eIQee5R2NyCbe_UT"
     )
       .then(
         (result) => {
           emailjs.send(
-            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_USER,
+            "service_obnhw2p",
+            "template_tqtu5yt",
             {
               reply_to: form.current.email?.value,
               user_name: capitalizedName,
               user_message: form.current.message?.value,
             },
-            process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+            "1eIQee5R2NyCbe_UT"
           );
         },
         (error) => {
