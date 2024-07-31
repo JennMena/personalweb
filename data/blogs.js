@@ -1,7 +1,7 @@
 export const blogData = [
   {
     id: 1,
-    imgSrc: "/assets/img/blog/blog-img-1.png",
+    imgSrc: "${basePath}/assets/img/blog/blog-img-1.png",
     bgClass: "bg-prink",
     date: "27 April",
     category: "Inspiration",
@@ -32,7 +32,7 @@ export const blogData = [
   },
   {
     id: 2,
-    imgSrc: "/assets/img/blog/blog-img-2.png",
+    imgSrc: "${basePath}/assets/img/blog/blog-img-2.png",
     bgClass: "bg-catkrill",
     date: "06 October",
     category: "Web Design",
@@ -63,7 +63,7 @@ export const blogData = [
   },
   {
     id: 3,
-    imgSrc: "/assets/img/blog/blog-img-3.png",
+    imgSrc: "${basePath}/assets/img/blog/blog-img-3.png",
     bgClass: "bg-catkrill",
     date: "12 March",
     category: "Travel Landing",
@@ -94,7 +94,7 @@ export const blogData = [
   },
   {
     id: 4,
-    imgSrc: "/assets/img/blog/blog-img-4.png",
+    imgSrc: "${basePath}/assets/img/blog/blog-img-4.png",
     bgClass: "bg-prink",
     date: "15 November",
     category: "Web Design",
@@ -125,7 +125,7 @@ export const blogData = [
   },
   {
     id: 5,
-    imgSrc: "/assets/img/blog/blog-img-1.png",
+    imgSrc: "${basePath}/assets/img/blog/blog-img-1.png",
     bgClass: "bg-prink",
     date: "27 April",
     category: "Inspiration",
@@ -156,7 +156,7 @@ export const blogData = [
   },
   {
     id: 6,
-    imgSrc: "/assets/img/blog/blog-img-2.png",
+    imgSrc: "${basePath}/assets/img/blog/blog-img-2.png",
     bgClass: "bg-catkrill",
     date: "06 October",
     category: "Web Design",
