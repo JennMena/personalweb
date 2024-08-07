@@ -124,7 +124,7 @@ export default function AboutOne() {
 
         <div className="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
           <span>
-            © {new Date().getFullYear()} Crafted with 🤓 and ☕ by Jenn using the Elite-Themes24 template.
+            © {new Date().getFullYear()} Crafted with 🤓 and ☕ by Jenn.
           </span>
         </div>
       </div>
